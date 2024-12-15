@@ -1,0 +1,4 @@
+Determine if the count of '0' in the list is greater than or equal to the count of '1' in the list at each prefix. Think step by step.
+The output should be formatted as a dictionary with the key 'Result'. For example, if the input list is '['0', '0', '1', '1']', the final output should be concluded with {'Result': True}.
+
+List: {{list}}

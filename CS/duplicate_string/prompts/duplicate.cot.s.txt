@@ -1,0 +1,6 @@
+Please process the input string by duplicating it according to the following steps:
+    1. Copy the input string.
+    2. Append the copied string to the original string.
+The output should be formatted as a dictionary with the key 'Result'. For example, if the input string is 'ab', the final output should be concluded with {'Result': 'abab'}.
+
+Input string: {{string}}

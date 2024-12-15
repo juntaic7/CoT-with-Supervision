@@ -1,0 +1,4 @@
+Please process the input string by duplicating it. Think step by step.
+The output should be formatted as a dictionary with the key 'Result'. For example, if the input string is 'ab', the final output should be concluded with {'Result': 'abab'}.
+
+Input string: {{string}}

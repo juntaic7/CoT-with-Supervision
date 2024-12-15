@@ -1,0 +1,7 @@
+Please convert the list below to odds first following the instructions:
+    1. Create an empty list 'odds' and a copy of the list 'copy'
+    2. For each letter in the list, if the index is odd, remove it from 'copy' and add it to 'odds'. Output 'odds' and 'copy' for each step. 'copy' will contain all letter with even index upon finishing.
+    3. Convert 'odds' and 'copy' to  string, then concatenate them together.
+The output should be formatted as a dictionary with the key 'Result', with the sorted list concatenated to a string. For example, if the input list is '['a', 'b', 'c', 'd']', the final output should be concluded with {'Result': 'bdac'}.
+
+List: {{list}}

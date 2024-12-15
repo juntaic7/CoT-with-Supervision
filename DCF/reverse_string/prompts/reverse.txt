@@ -1,0 +1,4 @@
+Please reverse the list. 
+The output should be formatted as a dictionary with the key 'Result', with the reversed list concatenated to a string. For example, if the input list is '['a', 'b', 'c', 'd']', the final output should be concluded with {'Result': 'dcba'}.
+
+List: {{list}}

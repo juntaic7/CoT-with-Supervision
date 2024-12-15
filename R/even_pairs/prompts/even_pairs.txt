@@ -1,0 +1,4 @@
+Please count the total numbers of 'ab' and 'ba' in the list below. 
+The output should be formatted as a dictionary with the key 'Result'. Do not output the individual counts. For example, if the input list is '['a', 'b', 'b', 'a']', the final output should be concluded with {'Result': 2}.
+
+List: {{list}}

@@ -1,0 +1,7 @@
+Please process the input string by duplicating it following the steps:
+    1. Initialize a new empty string
+    2. Start from the leftmost letter of the input string, add it to the end of the new string until you reached the end of the input string.
+    3. Then repeat step 2 until the length has been doubled.
+The output should be formatted as a dictionary with the key 'Result'. For example, if the input string is 'ab', the final output should be concluded with {'Result': 'abab'}.
+
+Input string: {{string}}

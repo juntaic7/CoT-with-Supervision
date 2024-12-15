@@ -1,0 +1,5 @@
+Given a sequence of movements on a cycle of length 5, compute the end position. The movements are STAY, INCREASE, DECREASE and are represented as {0, 1, 2}.
+Please determine the agent's final position after executing all movements in the list.
+The output should be formatted as a dictionary with the key 'Result'. Do not output the individual counts. For example, if the input list is '['0', '1', '2', '1']', the final output should be concluded with {'Result': 1}.
+
+List: {{list}}

@@ -1,0 +1,9 @@
+Please sort the list below in ascending order using insertion sort following the steps below. Note that lower case characters are greater than upper case characters.
+    1. Set a place counter to 1.
+    2. While the counter is not greater than the length of the list, keep doing this step:
+        - Increment the place counter.
+        - The characters before the place counter has been sorted. Insert the character at the current place counter to the correct position in the sorted part of the list.
+        - Display the currrent list and the counter after each step.
+The output should be formatted as a dictionary with the key 'Result', with the sorted list concatenated to a string. For example, if the input list is '['a', 'B', 'C', 'd']', the final output should be concluded with {'Result': 'BCad'}.
+
+List: {{list}}

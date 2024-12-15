@@ -1,0 +1,8 @@
+Please convert the list below to odds first following the instructions:
+    1. For every letter in the list, decide whether it's at odd position or even position. Output the decisions.
+    2. Concatenate all letters at odd positions in the original sequence. 
+    3. Concatenate all letters at even positions in the original sequence.
+    4. Concatenate the result of Step 2 and Step 3.
+The output should be formatted as a dictionary with the key 'Result', with the sorted list concatenated to a string. For example, if the input list is '['a', 'b', 'c', 'd']', the final output should be concluded with {'Result': 'bdac'}.
+
+List: {{list}}

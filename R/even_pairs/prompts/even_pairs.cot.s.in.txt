@@ -1,0 +1,6 @@
+Please count the total numbers of 'ab' and 'ba' in the list following the steps below:
+    1. For every letter in the list except the last one, combine it with the next letter in the list. Decide if it's a 'ab' or 'ba'. Output 'True' or 'False'.
+    2. Count the number of 'True's.
+The output should be formatted as a dictionary with the key 'Result'. Do not output the individual counts. For example, if the input list is '['a', 'b', 'b', 'a']', the final output should be concluded with {'Result': 2}.
+
+List: {{list}}

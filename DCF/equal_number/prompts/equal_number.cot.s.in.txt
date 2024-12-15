@@ -1,0 +1,10 @@
+Determine if the count of '0' in the list is greater than or equal to the count of '1' in the list at each prefix following the step below:
+    1. Initialize 'count_0' and 'count_1' to 0.
+    2. For every prefix of the list (except the last prefix which is equal to the whole list):
+        - Count the number of '0' in the list, store to 'count_0'.
+        - Count the number of '1' in the list, store to 'count_1'.
+        - If 'count_1' is greater than 'count_0', break and return False directly.
+    3. At the last step (i.e. the prefix being the list), if 'count_0' is equal to 'count_1' at the last step, return True. Else return False.
+The output should be formatted as a dictionary with the key 'Result'. For example, if the input list is '['0', '0', '1', '1']', the final output should be concluded with {'Result': True}.
+
+List: {{list}}

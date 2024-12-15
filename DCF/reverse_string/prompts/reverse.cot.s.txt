@@ -1,0 +1,9 @@
+Reverse the list following the steps below:
+     1. Create an empty string 'reversed'
+     2. For each character in the input list:
+          - Remove the first (leftmost) letter
+          - Add this letter to the beginning of 'reversed'
+          - Only display the 'reversed' string
+The output should be formatted as a dictionary with the key 'Result', with the reversed list concatenated to a string. For example, if the input list is '['a', 'b', 'c', 'd']', the final output should be concluded with {'Result': 'dcba'}.
+
+List: {{list}}

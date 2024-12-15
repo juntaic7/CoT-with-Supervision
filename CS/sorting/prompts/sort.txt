@@ -1,0 +1,4 @@
+Please sort the list below in ascending order using insertion sort. Note that lower case characters are greater than upper case characters.
+The output should be formatted as a dictionary with the key 'Result', with the sorted list concatenated to a string. For example, if the input list is '['a', 'B', 'C', 'd']', the final output should be concluded with {'Result': 'BCad'}.
+
+List: {{list}}

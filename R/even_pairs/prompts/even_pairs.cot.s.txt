@@ -1,0 +1,7 @@
+Please count the total numbers of 'ab' and 'ba' in the list following the steps below:
+    1. Initialize the 'count' to 0.
+    2. For each letter in the list, if the letter is different from the next letter, increment the 'count' by 1. Output the count.
+    3. Terminate when the letter is the last element in the list, and output the result.
+The output should be formatted as a dictionary with the key 'Result'. Do not output the individual counts. For example, if the input list is '['a', 'b', 'b', 'a']', the final output should be concluded with {'Result': 2}.
+
+List: {{list}}

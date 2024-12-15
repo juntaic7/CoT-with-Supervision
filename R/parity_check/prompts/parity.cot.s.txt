@@ -1,0 +1,7 @@
+Determine whether the number of occurrences of the letter '{{letter}}' in the given list following the steps below:
+    1. Initialize 'count' to 0.
+    2. For each letter in the list, increment 'count' if the letter is the same as the letter being evaluated and write down the current 'count'.
+    3. Decide if the the occurrences of the target letter is even or odd. 
+    4. Conclude with {'Result': True} if the count is even, {'Result': False} if the count is odd.
+
+List: {{list}}

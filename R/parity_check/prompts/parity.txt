@@ -1,0 +1,4 @@
+Determine whether the number of occurrences of letter '{{letter}}'s in the list below is even.
+Conclude with {'Result': True} if the count is even, {'Result': False} if the count is odd.
+
+List: {{list}}

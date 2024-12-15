@@ -1,0 +1,8 @@
+Determine if the list is a palindrome. The list contains a middle marker '#', which separates the first half and the second half of the list. Think following the instructions below:
+    1. Copy the list before the middle marker '#' into list 'left'.
+    2. Reverse 'left', store in list 'left_reverse'.
+    3. Copy the list after the middle marker '#' into list 'right'.
+    4. Compare 'left_reverse' with 'right', if they are different, return False. Otherwise  return True.
+The output should be formatted as a dictionary with the key 'Result'. For example, if the input list is '['a', 'b', '#', 'a', 'b']', the final output should be concluded with {'Result': False}.
+
+List: {{list}}
