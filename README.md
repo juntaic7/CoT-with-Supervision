@@ -1,6 +1,3 @@
-# Supervised Chain-of-Thought
-
-This is the offcial repository for the paper [Supervised Chain of Thought](https://arxiv.org/pdf/2410.14198).
 
 ## Table of Contents
 
