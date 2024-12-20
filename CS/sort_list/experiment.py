@@ -30,16 +30,16 @@ def main():
             
     match args.prompt_style:
         case "base":
-            with open(f"CS/sorting/prompts/sort.txt", 'r') as file:
+            with open(f"CS/sort_list/prompts/sort.txt", 'r') as file:
                 prompt = file.read().strip()
         case "cot":
-            with open(f"CS/sorting/prompts/sort.cot.txt", 'r') as file:
+            with open(f"CS/sort_list/prompts/sort.cot.txt", 'r') as file:
                 prompt = file.read().strip()
         case "scot":
-            with open(f"CS/sorting/prompts/sort.cot.s.txt", 'r') as file:
+            with open(f"CS/sort_list/prompts/sort.cot.s.txt", 'r') as file:
                 prompt = file.read().strip()
         case "scot_in":
-            with open(f"CS/sorting/prompts/sort.cot.s.in.txt", 'r') as file:
+            with open(f"CS/sort_list/prompts/sort.cot.s.in.txt", 'r') as file:
                 prompt = file.read().strip()
     for line in dataset:
         docs[str(line["id"])] = prompt.replace("{{list}}", str(list(line["string"])))

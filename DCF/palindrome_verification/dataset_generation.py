@@ -57,7 +57,7 @@ def main():
     args = parser.parse_args()
 
     dataset = generate_palindrome_dataset(args.num, args.length)
-    out_file = f"DCF/palindrome/datasets/pal_{args.length}.jsonl"
+    out_file = f"DCF/palindrome_verification/datasets/pal_{args.length}.jsonl"
     
     with open(out_file, "w") as file:
         for item in dataset:

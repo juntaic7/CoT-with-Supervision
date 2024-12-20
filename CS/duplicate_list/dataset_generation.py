@@ -26,7 +26,7 @@ def main():
     for i in range(args.num):
         seq = generate_random_string(args.length)
         dataset.append({"id": i, "string": seq, "duplicate": seq * 2})
-    out_file = f"CS/duplicate_string/datasets/dup_{args.length}.jsonl"
+    out_file = f"CS/duplicate_string/datasets/dl_{args.length}.jsonl"
     
     with open(out_file, "w") as file:
         for item in dataset:

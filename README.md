@@ -1,33 +1,34 @@
+<!-- omit from toc -->
+# Navigating the Prompt Space: Supervision Matters in CoT When Reasoning Misleads
 
 ## Table of Contents
 
-- [Supervised Chain-of-Thought](#supervised-chain-of-thought)
-  - [Table of Contents](#table-of-contents)
-  - [Experiments](#experiments)
-    - [R (Regular)](#r-regular)
-    - [DCF (Deterministic Context-Free)](#dcf-deterministic-context-free)
-    - [CS (Context-Sensitive)](#cs-context-sensitive)
-  - [Citation](#citation)
+- [Table of Contents](#table-of-contents)
+- [Experiments](#experiments)
+  - [Tasks](#tasks)
+- [Run](#run)
+  - [Dataset Generation](#dataset-generation)
+- [Citation](#citation)
 
 ## Experiments
 
-### R (Regular)
+### Tasks
 
-- Parity check
-- Even pairs
-- Cycle navigation
+| Level | Tasks | Abbr. |
+|-------|-----------------|----|
+|R      | Parity Check       | PC |
+|R      | Even Pairs         | EP |
+|R      | Cycle Navigation   | CN |
+|DCF    | Reverse List       | RL |
+|DCF    | Equal Number       | EN |
+|DCF    | Palindrome         | PV |
+|CS     | Sort List          | SL |
+|CS     | Odds First         | OF |
+|CS     | Duplicate List     | DL |
 
-### DCF (Deterministic Context-Free)
+## Run
 
-- Reverse string
-- Palindrome (with marker)
-- Equal number
-
-### CS (Context-Sensitive)
-
-- Sorting
-- Odds first
-- Duplicate string
+### Dataset Generation
 
 ## Citation
 

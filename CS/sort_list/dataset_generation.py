@@ -27,7 +27,7 @@ def main():
     for i in range(args.num):
         seq = generate_random_string(args.length)
         dataset.append({"id": i, "string": seq, "sorted": ''.join(sorted(seq))})
-        out_file = f"CS/sorting/datasets/sort_{args.length}.jsonl"
+        out_file = f"CS/sorting/datasets/sl_{args.length}.jsonl"
     
     with open(out_file, 'w') as file:
         for line in dataset:
