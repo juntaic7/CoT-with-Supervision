@@ -6,8 +6,11 @@
 - [Table of Contents](#table-of-contents)
 - [Experiments](#experiments)
   - [Tasks](#tasks)
-- [Run](#run)
   - [Dataset Generation](#dataset-generation)
+  - [Run](#run)
+  - [Check Status](#check-status)
+  - [Retrieve Results](#retrieve-results)
+  - [Evaluate](#evaluate)
 - [Citation](#citation)
 
 ## Experiments
@@ -26,9 +29,35 @@
 |CS     | Odds First         | OF |
 |CS     | Duplicate List     | DL |
 
-## Run
-
 ### Dataset Generation
+
+```bash
+python -m <level>.<task>.dataset_generation.py -n <num> -l <length>
+```
+
+### Run
+
+```bash
+python -m <level>.<task>.experiment.py -p <prompt_style> -d <dataset> -m <model>
+```
+
+### Check Status
+
+```bash
+python -m agents.check_status.py -a "gpt" -b <batch_id>
+```
+
+### Retrieve Results
+
+```bash
+python -m agents.retrieve_results.py -a "gpt" -b <batch_id> -p <path>
+```
+
+### Evaluate
+
+```bash
+python -m <level>.<task>.evaluate.py -d <dataset> -p <path>
+```
 
 ## Citation
 
