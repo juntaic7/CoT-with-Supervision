@@ -1,5 +1,5 @@
 <!-- omit from toc -->
-# Why Prompt Design Matters and Works:\\ A Complexity Analysis of Prompt Search Space in LLMs
+# Why Prompt Design Matters and Works:<br> A Complexity Analysis of Prompt Search Space in LLMs
 
 ## Table of Contents
 
