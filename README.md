@@ -1,5 +1,5 @@
 <!-- omit from toc -->
-# Navigating the Prompt Space: Supervision Matters in CoT When Reasoning Misleads
+# Why Prompt Design Matters and Works: A Complexity Analysis of Prompt Search Space in LLMs
 
 ## Table of Contents
 
@@ -62,5 +62,13 @@ python -m <level>.<task>.evaluate.py -d <dataset> -p <path>
 ## Citation
 
 ```bibtex
-To be added
+@misc{zhang2025promptdesignmattersworks,
+      title={Why Prompt Design Matters and Works: A Complexity Analysis of Prompt Search Space in LLMs}, 
+      author={Xiang Zhang and Juntai Cao and Jiaqi Wei and Chenyu You and Dujian Ding},
+      year={2025},
+      eprint={2503.10084},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2503.10084}, 
+}
 ```
